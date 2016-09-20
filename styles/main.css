@@ -1,0 +1,24 @@
+@import './MyFontsWebfontsKit.css';
+
+@font-face {
+  font-family: 'SourceCodePro-Light';
+  src: url('./fonts/SourceCodePro-Light.otf');
+}
+
+article {
+  font-family: PublicaSans-Light;
+  font-size: 2em;
+  font-size: 4vh;
+}
+
+pre {
+  font-family: SourceCodePro-Light;
+  font-size: 1em;
+  font-size: 2.25vh;
+  text-align: left;
+  border-radius: 6px;
+}
+
+.emphatic {
+  color: #254;
+}

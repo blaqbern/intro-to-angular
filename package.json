@@ -1,0 +1,47 @@
+{
+  "name": "bespoke-starter",
+  "version": "0.1.0",
+  "description": "Bespoke presentation template",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d build",
+    "start": "node devServer",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bespoke",
+    "presentation"
+  ],
+  "author": "Chris Blackburn",
+  "license": "ISC",
+  "repository": "https://github.com/blaqbern/bespoke-starter.git",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "bespoke": "^1.1.0",
+    "bespoke-backdrop": "^1.0.0",
+    "bespoke-bullets": "^1.1.0",
+    "bespoke-keys": "^1.1.0",
+    "bespoke-scale": "^1.0.1",
+    "bespoke-state": "^1.0.0",
+    "bespoke-theme-build-wars": "^1.0.1",
+    "bespoke-touch": "^1.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "gh-pages": "^0.11.0",
+    "highlight-loader": "^0.7.2",
+    "highlight.js": "^9.6.0",
+    "html-loader": "^0.4.4",
+    "markdown-loader": "^0.1.7",
+    "marked": "^0.3.6",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.0"
+  },
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  }
+}

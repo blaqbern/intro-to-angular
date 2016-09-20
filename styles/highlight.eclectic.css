@@ -1,0 +1,86 @@
+/*
+ * Chris Blackburn - Eclectic Syntax Theme
+ *
+ */
+
+/* Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #61666f;
+}
+
+/* ice */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-link,
+.hljs-deletion {
+  color: #b1d1b1;
+}
+
+/* celery */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #a8b577;
+}
+
+/* leaf */
+.hljs-subst {
+  color: #7ea158;
+}
+
+/* gold */
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-number,
+.hljs-meta,
+.hljs-meta-keyword {
+  color: #e6c37e;
+}
+
+/* cyan */
+.hljs-section,
+.hljs-title,
+.hljs-class .hljs-title {
+  color: #81c7be;
+}
+
+/* teal */
+.hljs-params,
+.hljs-function {
+  color: #469c91;
+}
+
+/* rose */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #c77fa4;
+}
+
+/* lavender */
+.hljs-built_in {
+  color: #9c8db1;
+}
+
+.hljs {
+  display: block;
+  background: #36393e;
+  color: #d9dec3;
+  padding: 0.5em;
+}
+
+.hljs-emphasis,
+.hljs-comment {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
