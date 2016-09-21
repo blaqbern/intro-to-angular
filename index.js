@@ -4,7 +4,7 @@ import bespoke from 'bespoke'
 import buildWars from 'bespoke-theme-build-wars'
 import keys from 'bespoke-keys'
 import touch from 'bespoke-touch'
-import scale from 'bespoke-scale'
+import bullets from 'bespoke-bullets'
 import backdrop from 'bespoke-backdrop'
 import state from 'bespoke-state'
 import './styles/main.css'
@@ -50,7 +50,7 @@ bespoke.from('#slideDeck', [
   buildWars(),
   keys(),
   touch(),
-  scale('transform'),
+  bullets('li', '.bullet'),
   backdrop(),
   state(),
 ])
