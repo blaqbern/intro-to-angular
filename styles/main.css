@@ -1,0 +1,69 @@
+@import './MyFontsWebfontsKit.css';
+
+@font-face {
+  font-family: 'SourceCodePro-Light';
+  src: url('./fonts/SourceCodePro-Light.otf');
+}
+
+article {
+  font-family: PublicaSans-Thin;
+  font-size: 1.25em;
+}
+
+h1, h2 {
+  font-family: PublicaSans-Light;
+}
+
+strong {
+  font-family: PublicaSans-Bold;
+}
+
+.bespoke-slide {
+  padding: 0;
+}
+
+p {
+  margin: 2% 0;
+}
+
+pre,
+code {
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+  font-family: SourceCodePro-Light;
+  text-align: left;
+  border-radius: 6px;
+}
+
+code {
+  color: #cff;
+}
+
+ol, ul {
+  text-align: left;
+  padding-left: 8%;
+}
+
+ul {
+  list-style: circle;
+}
+
+.emphatic,
+.emphatic h2,
+.emphatic h3,
+.emphatic h4 {
+  color: #254;
+}
+
+.emphatic p {
+  color: black;
+}
+
+.emphatic a {
+  color: #fff;
+  font-family: PublicaSans-light;
+}
+
+.emphatic a:hover {
+  text-decoration: underline;
+}

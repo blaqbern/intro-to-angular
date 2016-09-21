@@ -1,0 +1,39 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3285350, 2016-09-19T22:04:24-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: PublicaSans-Bold by FaceType
+ * URL: http://www.myfonts.com/fonts/facetype/publica-sans/bold/
+ * 
+ * Webfont: PublicaSans-Light by FaceType
+ * URL: http://www.myfonts.com/fonts/facetype/publica-sans/light/
+ * 
+ * Webfont: PublicaSans-Thin by FaceType
+ * URL: http://www.myfonts.com/fonts/facetype/publica-sans/thin/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3285350
+ * Licensed pageviews: 10,000
+ * 
+ * © 2016 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/322166");
+
+  
+@font-face {font-family: 'PublicaSans-Bold';src: url('webfonts/322166_0_0.eot');src: url('webfonts/322166_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/322166_0_0.woff2') format('woff2'),url('webfonts/322166_0_0.woff') format('woff'),url('webfonts/322166_0_0.ttf') format('truetype'),url('webfonts/322166_0_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'PublicaSans-Light';src: url('webfonts/322166_1_0.eot');src: url('webfonts/322166_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/322166_1_0.woff2') format('woff2'),url('webfonts/322166_1_0.woff') format('woff'),url('webfonts/322166_1_0.ttf') format('truetype'),url('webfonts/322166_1_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'PublicaSans-Thin';src: url('webfonts/322166_2_0.eot');src: url('webfonts/322166_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/322166_2_0.woff2') format('woff2'),url('webfonts/322166_2_0.woff') format('woff'),url('webfonts/322166_2_0.ttf') format('truetype'),url('webfonts/322166_2_0.svg#wf') format('svg');}
+ 
