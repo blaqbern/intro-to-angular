@@ -1,17 +1,8 @@
-## Title
+## MVC
 
-```js
-import React, { Component } from 'react'
+![MVC diagram](../../images/mvc.png)
 
-export default class MyComponent extends Component {
-  render() {
-    return (
-      <div>
-        <Header title={'Hello, Neptune'} />
-        <MainContent />
-        <Footer />
-      </div>
-    )
-  }
-}
-```
+- Separation of concerns
+  - data: **M**, presentation: **V**, logic: **C**
+- Many possible implementations
+- Angular's implementation uses two-way data binding
