@@ -6,4 +6,4 @@ mobomo
 
 Chris Blackburn
 
-[Full Article](https://github.com/blaqbern/intro-to-angular)
+[Full Article](https://github.com/blaqbern/intro-to-angular/)
