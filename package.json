@@ -4,9 +4,10 @@
   "description": "Bespoke presentation template",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d .",
+    "build": "npm run clean && webpack -p --config webpack.prod.config.js",
+    "clean": "rm -rf build",
+    "deploy": "npm run build && gh-pages -d .",
     "start": "node devServer",
-    "build": "webpack -p --config webpack.prod.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -38,6 +39,7 @@
     "markdown-loader": "^0.1.7",
     "marked": "^0.3.6",
     "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.0"
   },
