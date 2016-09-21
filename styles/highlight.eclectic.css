@@ -13,8 +13,7 @@
 .hljs-variable,
 .hljs-template-variable,
 .hljs-attribute,
-.hljs-tag,
-.hljs-name,
+.hljs-attr,
 .hljs-selector-id,
 .hljs-selector-class,
 .hljs-regexp,
@@ -46,6 +45,8 @@
 }
 
 /* cyan */
+.hljs-name,
+.hljs-tag,
 .hljs-section,
 .hljs-title,
 .hljs-class .hljs-title {
@@ -77,7 +78,8 @@
 }
 
 .hljs-emphasis,
-.hljs-comment {
+.hljs-comment,
+.hljs-attr {
   font-style: italic;
 }
 
